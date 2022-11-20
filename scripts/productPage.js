@@ -23,6 +23,7 @@ function insertStyle() {
       border-radius: 0.75rem;
       margin: -3rem 0 3rem;
       width: fit-content;
+      transition: width 0.5s, height 0.5s;
     }
     .score-info-card__info{
       grid-column: 1 / -1;
@@ -77,11 +78,6 @@ function insertLoadingElement(wineName) {
 
 function insertScoreElement(wineInfo) {
   const scoreInfoCard = document.getElementById('score-info-card');
-
-  scoreInfoCard.setAttribute(
-    'href',
-    'https://www.vivino.com/search/wines?q=' + wineName
-  );
 
   // Early exit if no result on Vivino
   console.log(wineInfo);
