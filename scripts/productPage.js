@@ -77,7 +77,7 @@ function insertLoadingElement(wineName) {
 
 function insertScoreElement(wineInfo) {
   const scoreInfoCard = document.getElementById('score-info-card');
-  
+
   scoreInfoCard.setAttribute(
     'href',
     'https://www.vivino.com/search/wines?q=' + wineName
@@ -100,10 +100,10 @@ function insertScoreElement(wineInfo) {
     <div class="score-info-card__info">
       <span>${wineInfo.vintageScore}</span> basert på <b>${wineInfo.vintageRatings}</b> vurderinger
     </div>
-    <a class="score-info-card__link" href="https://www.vivino.com/wines/${wineInfo.vintageID}">Årgang</a>
-    <a class="score-info-card__link" href="https://www.vivino.com/w/${wineInfo.wineID}">Vin</a>
-    <a class="score-info-card__link" href="https://www.vivino.com/search/wines?q=${wineName}">Søkeresultat</a>
-  `
+    <a class="score-info-card__link" target="_blank" href="https://www.vivino.com/wines/${wineInfo.vintageID}">Årgang</a>
+    <a class="score-info-card__link" target="_blank" href="https://www.vivino.com/w/${wineInfo.wineID}">Vin</a>
+    <a class="score-info-card__link" target="_blank" href="https://www.vivino.com/search/wines?q=${wineName}">Søkeresultat</a>
+  `;
 }
 
 function productIsWine() {
