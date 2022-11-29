@@ -7,8 +7,6 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 async function sendMessageBack(request, sendResponse) {
   wineInfo = await getWineInfo(request);
   sendResponse(wineInfo);
-  console.log('finished response process, info sent:');
-  console.log(wineInfo);
 }
 
 // Sends a request to get the html of the search site
