@@ -1,7 +1,7 @@
 # polet-pluss
 Extention that adds extra features to the vinmonopolet.no website
 
-The plan is to expand this readme more later™️, but here is a basic run-through:
+The plan is to expand this readme more later™, but here is a basic run-through:
 
 The extension aims to add extra functionality to the vinmonopolet.no website. It does this by automatially doing a Vivino search for a wine name, fetching the score from the top result, and displaying this on the vinmonopolet product page for said wine. This whole process is a bit cumbersome, but necessary since Vivino does not provide an open API for this (I do not plan on scraping all of Vivino regularly to create my own API, sorry).
 
