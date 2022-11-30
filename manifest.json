@@ -2,9 +2,7 @@
   "manifest_version": 3,
   "name": "Polet+",
   "version": "0.1",
-  "default_locale": "no",
   "description": "Legger inn Vivino-vurderinger på vinmonopolets sider",
-  "Author": "Itzjacki",
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
