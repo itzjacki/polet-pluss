@@ -1,7 +1,9 @@
 # polet-pluss
 Extention that adds extra features to the vinmonopolet.no website
 
-Can be found on the Chrome web store here: https://chrome.google.com/webstore/detail/polet%20/ebkhfjjpghjiihkfkkihmnipgijmjbpi
+Can be found on the Chrome web store here:
+
+https://chrome.google.com/webstore/detail/polet%20/ebkhfjjpghjiihkfkkihmnipgijmjbpi
 
 The plan is to expand this readme more later™, but here is a basic run-through:
 
