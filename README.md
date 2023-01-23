@@ -9,7 +9,7 @@ The extension aims to add extra functionality to the vinmonopolet.no website. It
 
 ## Manual installation
 
-The extension has been submitted to the Chrome web store, and this readme will be updated when/if it is released on the web store. But the review can be a lengthy process, and there might have been technicalities I did not fulfill, so here is a guide on how to run the extension "in dev mode".
+It's also possible to install the extension manually:
 
 1. Download the repository, either by cloning it or by downloading the files as a zip. Unzip the files in a folder somewhere if you chose the latter.
 2. Go to `chrome://extensions`
